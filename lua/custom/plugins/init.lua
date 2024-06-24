@@ -12,4 +12,24 @@ return {
       vim.g.vimtex_view_method = 'zathura'
     end,
   },
+  {
+    'micangl/cmp-vimtex',
+  },
+  {
+    'ray-x/lsp_signature.nvim',
+    event = 'VeryLazy',
+    opts = {},
+    config = function(_, opts)
+      require('lsp_signature').setup(opts)
+    end,
+  },
+  {
+    'zbirenbaum/copilot.lua',
+    cmd = 'Copilot',
+    event = 'InsertEnter',
+    opts = {},
+  },
+  {
+    'windwp/nvim-projectconfig',
+  },
 }
