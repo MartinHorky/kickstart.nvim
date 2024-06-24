@@ -545,6 +545,15 @@ require('lazy').setup({
               vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
             end, '[T]oggle Inlay [H]ints')
           end
+
+          -- local bufnr = event.buf
+          -- local client = vim.lsp.get_client_by_id(event.data.client_id)
+          -- if vim.tbl_contains({ 'null-ls' }, client.name) then -- blacklist lsp
+          --   return
+          -- end
+          -- require('lsp_signature').on_attach({
+          --   -- ... setup options here ...
+          -- }, bufnr)
         end,
       })
 
