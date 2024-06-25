@@ -32,4 +32,7 @@ return {
   {
     'windwp/nvim-projectconfig',
   },
+  {
+    'tpope/vim-fugitive',
+  },
 }
