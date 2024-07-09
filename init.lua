@@ -581,7 +581,7 @@ require('lazy').setup({
         pyright = {},
         clangd = {},
         cmake = {},
-        csharp_ls = {},
+        omnisharp = {},
         rust_analyzer = {},
         dockerls = {},
         html = {},
