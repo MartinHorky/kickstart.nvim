@@ -581,7 +581,12 @@ require('lazy').setup({
       local servers = {
         ltex = {},
         pyright = {},
-        clangd = {},
+        clangd = {
+          cmd = {
+            'clangd',
+            '--offset-encoding=utf-16',
+          },
+        },
         cmake = {},
         omnisharp = {},
         rust_analyzer = {},
