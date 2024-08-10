@@ -39,9 +39,6 @@ return {
     lazy = true,
   },
   {
-    'catppuccin/nvim',
-  },
-  {
     'christoomey/vim-tmux-navigator',
     lazy = true,
     cmd = {
