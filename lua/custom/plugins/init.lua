@@ -59,7 +59,4 @@ return {
       { '<c-\\>', '<cmd><C-U>TmuxNavigatePrevious<cr>' },
     },
   },
-  {
-    'pocco81/auto-save.nvim',
-  },
 }
