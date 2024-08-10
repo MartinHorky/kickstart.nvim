@@ -513,7 +513,7 @@ require('lazy').setup({
         cssls = {},
         tsserver = {},
         jsonls = {},
-        typos_lsp = {},
+        vale_ls = {},
 
         lua_ls = {
           settings = {
