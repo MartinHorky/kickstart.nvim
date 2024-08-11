@@ -65,4 +65,7 @@ return {
     end,
     requires = 'L3MON4D3/LuaSnip',
   },
+  {
+    'junegunn/fzf',
+  },
 }
